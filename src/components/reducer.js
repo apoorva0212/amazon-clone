@@ -31,11 +31,11 @@ const reducer = (state, action) => {
                 ...state,
                 user: action.user
             }
-        case 'SEARCH':
-            return {
-                ...state,
-                search: action.search
-            }
+       case 'EMPTY_BASKET':
+           return {
+               ...state,
+               basket: []
+           }
         default:
             return state;
     };

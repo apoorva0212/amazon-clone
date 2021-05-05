@@ -23,10 +23,33 @@
 }
 
 .payment__title {
-  flex-grow: 0.2;
+  flex: 0.2;
 }
 
 .payment__address,
-.payment__items {
+.payment__items,
+.payment__details {
   flex: 0.8;
+}
+
+.currencyFormat {
+  margin-top: 20px;
+}
+
+.payment__priceContainer > button {
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+  background: #eebd40;
+  display: block;
+  margin-top: 20px;
+  padding: 5px 8px;
+  width: 100px;
+}
+
+.payment__details > form {
+  max-width: 400px;
+}
+
+.payment__details > h4 {
+  padding-bottom: 20px;
 }
